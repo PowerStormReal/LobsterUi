@@ -6,7 +6,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/PowerStormReal/Lobste
 
 Lobester is a free and open sourced Roblox UI library.
 
-**Features:**
+# Features:
 - Customizable (Themes)
 - Browser-Like navigation
 - Buttons
@@ -22,13 +22,33 @@ Created by CyberAnonymous
 
 Documentation
 
-Get the Library
-```local Lobster = loadstring(game:HttpGet("https://raw.githubusercontent.com/PowerStormReal/LobsterUi/refs/heads/main/Source.lua"))()
-
+# Get the Library
+```
+local Lobster = loadstring(game:HttpGet("https://raw.githubusercontent.com/PowerStormReal/LobsterUi/refs/heads/main/Source.lua"))()
+```
+# Create the GUI
 ```
 local GUI = Mercury:Create{
-    Name = "Mercury",
+    Name = "Lobster",
     Size = UDim2.fromOffset(600, 400),
     Theme = Mercury.Themes.Dark,
     Link = "https://github.com/deeeity/mercury-lib"
 }
+```
+
+# Tabs
+```
+local Tab = GUI:Tab{
+	Name = "New Tab",
+	Icon = "rbxassetid://8569322835"
+}
+```
+
+**Buttons**
+```
+Tab:Button{
+	Name = "Button",
+	Description = nil,
+	Callback = function() end
+}
+```
