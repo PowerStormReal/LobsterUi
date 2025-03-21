@@ -1,7 +1,7 @@
 
 ## Loadstring
 ```
-loadstring(game:HttpGet("https://raw.githubusercontent.com/PowerStormReal/LobsterUi/refs/heads/main/Source.lua"))()
+https://raw.githubusercontent.com/PowerStormReal/LobsterUi/refs/heads/main/Source.lua
 ```
 
 Lobester is a free and open sourced Roblox UI library.
@@ -25,7 +25,7 @@ Created by CyberAnonymous
 
 ### Get the Library
 ```lua
-local Lobster = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+https://raw.githubusercontent.com/PowerStormReal/LobsterUi/refs/heads/main/Source.lua
 ```
 
 ### Create the GUI
