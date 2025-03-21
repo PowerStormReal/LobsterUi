@@ -1,6 +1,6 @@
 
 ## Loadstring
-```
+```lua
 https://raw.githubusercontent.com/PowerStormReal/LobsterUi/refs/heads/main/Source.lua
 ```
 
@@ -25,13 +25,13 @@ Created by CyberAnonymous
 
 ### Get the Library
 ```lua
-https://raw.githubusercontent.com/PowerStormReal/LobsterUi/refs/heads/main/Source.lua
+local Lobster = loadstring(game:HttpGet("https://raw.githubusercontent.com/PowerStormReal/LobsterUi/refs/heads/main/Source.lua"))()
 ```
 
 ### Create the GUI
 ```lua
 local GUI = Mercury:Create{
-    Name = "Mercury",
+    Name = "Lobster",
     Size = UDim2.fromOffset(600, 400),
     Theme = Mercury.Themes.Dark,
     Link = "https://github.com/deeeity/mercury-lib"
